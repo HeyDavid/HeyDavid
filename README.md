@@ -1,14 +1,14 @@
 <!-- ════════════════════════════════════════════════════════════════
-     david russell · github profile readme
-     Banners are hand-drawn animated SVG (assets/). No third-party
-     widgets, no badge soup. Light/dark hero swaps via <picture>.
+     david russell · github profile readme  (v2 — field-survey instrument)
+     Every banner is hand-drawn animated SVG (assets/). No third-party
+     widgets, no badge soup. Light/dark hero auto-swaps via <picture>.
      ════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg" />
-    <img alt="david russell — solo operator in South Florida. Live: Cura, Let's Chat, davidrussell.co" src="assets/hero-dark.svg" width="100%" />
+    <img alt="david russell — solo operator in South Florida. A field survey of live ventures: Cura, Let's Chat, davidrussell.co, ScamCapital, Computer Input." src="assets/hero-dark.svg" width="100%" />
   </picture>
 </div>
 
@@ -17,6 +17,12 @@
 I build small, evergreen internet businesses — and the systems that run them. Mostly solo, from South Florida, with a small crew of AI agents handling the busywork.
 
 My filter for what I take on: **does it compound? is it asymmetric and evergreen? is it actually profitable?** If the answer's no, I cut it.
+
+<br/>
+
+<div align="center">
+  <img src="assets/signal.svg" alt="Transmitting — always shipping. Tuning across live ventures: Cura, Let's Chat, davidrussell.co, ScamCapital, Computer Input." width="100%" />
+</div>
 
 <br/>
 
@@ -60,4 +66,4 @@ My filter for what I take on: **does it compound? is it asymmetric and evergreen
   <a href="https://davidrussell.co">davidrussell.co</a>
 </p>
 
-<p align="center"><sub>Colophon — every banner here is hand-drawn animated SVG: the signal field, the coral pulse, the wordmark, all of it. Built with the same kit I use for client work. No templates.</sub></p>
+<p align="center"><sub>Colophon — every banner here is hand-drawn animated SVG: the field survey, the radar sweep, the tuner, the wordmark that types itself in. Built with the same kit I use for client work. No templates.</sub></p>
