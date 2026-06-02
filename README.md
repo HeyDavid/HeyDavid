@@ -1,5 +1,5 @@
 <!-- ════════════════════════════════════════════════════════════════
-     david russell · github profile readme  (v2 — field-survey instrument)
+     david russell · github profile readme  (v3 — opportunity radar)
      Every banner is hand-drawn animated SVG (assets/). No third-party
      widgets, no badge soup. Light/dark hero auto-swaps via <picture>.
      ════════════════════════════════════════════════════════════════ -->
@@ -8,7 +8,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg" />
-    <img alt="david russell — solo operator in South Florida. A field survey of live ventures: Cura, Let's Chat, davidrussell.co, ScamCapital, Computer Input." src="assets/hero-dark.svg" width="100%" />
+    <img alt="david russell — solo operator in South Florida. An opportunity radar tracking live ventures: Cura, Let's Chat, davidrussell.co, ScamCapital, Computer Input." src="assets/hero-dark.svg" width="100%" />
   </picture>
 </div>
 
@@ -35,7 +35,7 @@ My filter for what I take on: **does it compound? is it asymmetric and evergreen
   </tr>
   <tr>
     <td width="50%"><a href="https://davidrussell.co"><img src="assets/card-drco.svg" alt="davidrussell.co — the umbrella: writing, ventures and work-with-me" width="100%" /></a></td>
-    <td width="50%"><img src="assets/card-scamcapital.svg" alt="ScamCapital — scam-report authority directory (DNS pending)" width="100%" /></td>
+    <td width="50%"><a href="https://scamcapital.com"><img src="assets/card-scamcapital.svg" alt="ScamCapital — scam-report authority directory · scamcapital.com" width="100%" /></a></td>
   </tr>
   <tr>
     <td colspan="2" align="center"><a href="https://computerinput.com"><img src="assets/card-computerinput.svg" alt="Computer Input — family cabling company since 1986 · computerinput.com" width="49.3%" /></a></td>
@@ -66,4 +66,4 @@ My filter for what I take on: **does it compound? is it asymmetric and evergreen
   <a href="https://davidrussell.co">davidrussell.co</a>
 </p>
 
-<p align="center"><sub>Colophon — every banner here is hand-drawn animated SVG: the field survey, the radar sweep, the tuner, the wordmark that types itself in. Built with the same kit I use for client work. No templates.</sub></p>
+<p align="center"><sub>Colophon — every banner here is hand-drawn animated SVG: the opportunity radar and its sweeping beam, the signal tuner, the wordmark that types itself in. Built with the same kit I use for client work. No templates.</sub></p>
