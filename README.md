@@ -52,6 +52,8 @@ My filter for what I take on: **does it compound? is it asymmetric and evergreen
 
 **Right now** — shipping Cura's founding cohort, and cloning the AI-front-desk model into new verticals where a missed call costs real money.
 
+**Free to use** — little public tools I built: the **[AI Front Desk Architect](https://chatgpt.com/g/g-6a1f6404503881919e029eefcff83f07)** (a custom GPT, also a Gemini Gem) writes a production-ready voice-agent script for any business; **[animated-profile-radar](https://github.com/HeyDavid/animated-profile-radar)** generates a banner like the one above. Free and open.
+
 <br/>
 
 <a href="https://davidrussell.co"><img src="assets/cta.svg" alt="Build something that compounds — modern websites, AI voice agents, tech consulting · davidrussell.co" width="100%" /></a>
