@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0e0e10" />
+
+  <!-- ════════════════════════════════════════════════════════════════
+       SEO / LOCAL SEARCH  ·  edit the business facts in ONE place below,
+       then run find-and-replace for the @@TOKENS@@ across this file.
+       Tokens used:  @@BUSINESS@@  @@PHONE@@  @@PHONE_HREF@@  @@ADDRESS@@
+                     @@BOOKING_URL@@  @@DOMAIN@@
+       (see README.md → "Make it real in 5 minutes")
+       ════════════════════════════════════════════════════════════════ -->
+
+  <title>Coral Springs Barber Co. — Men's Barbershop &amp; Haircuts in Coral Springs, FL</title>
+  <meta name="description" content="Coral Springs Barber Co. — a modern men's barbershop in Coral Springs, FL. Precision fades, beard trims, hot-towel shaves and straight-razor lineups. Walk-ins welcome, book online in seconds." />
+  <link rel="canonical" href="https://@@DOMAIN@@/" />
+
+  <!-- Local search signals -->
+  <meta name="geo.region" content="US-FL" />
+  <meta name="geo.placename" content="Coral Springs, Florida" />
+  <meta name="geo.position" content="26.271192;-80.270604" />
+  <meta name="ICBM" content="26.271192, -80.270604" />
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="business.business" />
+  <meta property="og:title" content="Coral Springs Barber Co. — Men's Barbershop in Coral Springs, FL" />
+  <meta property="og:description" content="Precision fades, beard trims and hot-towel shaves. Walk-ins welcome. Book online in seconds." />
+  <meta property="og:image" content="https://@@DOMAIN@@/assets/og-image.svg" />
+  <meta property="og:url" content="https://@@DOMAIN@@/" />
+  <meta property="og:site_name" content="Coral Springs Barber Co." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Coral Springs Barber Co. — Men's Barbershop in Coral Springs, FL" />
+  <meta name="twitter:description" content="Precision fades, beard trims and hot-towel shaves. Walk-ins welcome. Book online in seconds." />
+  <meta name="twitter:image" content="https://@@DOMAIN@@/assets/og-image.svg" />
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="site.webmanifest" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/styles.css" />
+
+  <!-- ════════ STRUCTURED DATA  (this is what wins Google's local pack) ════════ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BarberShop",
+    "name": "Coral Springs Barber Co.",
+    "image": "https://@@DOMAIN@@/assets/og-image.svg",
+    "url": "https://@@DOMAIN@@/",
+    "telephone": "@@PHONE@@",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "@@ADDRESS@@",
+      "addressLocality": "Coral Springs",
+      "addressRegion": "FL",
+      "postalCode": "33065",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.271192,
+      "longitude": -80.270604
+    },
+    "areaServed": ["Coral Springs", "Coconut Creek", "Parkland", "Margate", "Tamarac"],
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "18:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "15:00" }
+    ],
+    "sameAs": [
+      "https://www.instagram.com/",
+      "https://www.google.com/maps"
+    ],
+    "makesOffer": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Signature Haircut" }, "price": "35", "priceCurrency": "USD" },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Skin Fade" }, "price": "40", "priceCurrency": "USD" },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Beard Trim & Shape" }, "price": "20", "priceCurrency": "USD" },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hot-Towel Straight-Razor Shave" }, "price": "35", "priceCurrency": "USD" }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Skip link for a11y -->
+  <a href="#book" class="skip-link">Skip to booking</a>
+
+  <!-- ════════════════ NAV ════════════════ -->
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__brand">
+      <span class="pole" aria-hidden="true"><span class="pole__stripes"></span></span>
+      <span class="nav__name">Coral&nbsp;Springs<br />Barber&nbsp;Co.</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#services">Services</a>
+      <a href="#barber">The Barber</a>
+      <a href="#gallery">Work</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a href="@@BOOKING_URL@@" class="btn btn--gold nav__cta">Book Now</a>
+  </header>
+
+  <!-- ════════════════ HERO ════════════════ -->
+  <main id="top">
+    <section class="hero" id="hero">
+      <div class="hero__grain" aria-hidden="true"></div>
+      <div class="hero__inner reveal">
+        <p class="hero__eyebrow">Coral Springs, Florida · Est. 2026</p>
+        <h1 class="hero__title">
+          A sharp cut<br /><span class="accent">is non-negotiable.</span>
+        </h1>
+        <p class="hero__lede">
+          Old-school craft, modern fades. Hot-towel shaves, clean lineups, and a chair
+          that's actually yours for the next 45 minutes. No rush. No guesswork.
+        </p>
+        <div class="hero__actions">
+          <a href="@@BOOKING_URL@@" class="btn btn--gold btn--lg">Book your chair</a>
+          <a href="tel:@@PHONE_HREF@@" class="btn btn--ghost btn--lg">Call @@PHONE@@</a>
+        </div>
+        <ul class="hero__trust">
+          <li><strong>4.9★</strong> Google rating</li>
+          <li><strong>Walk-ins</strong> welcome</li>
+          <li><strong>15+ yrs</strong> behind the chair</li>
+        </ul>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">scroll</div>
+    </section>
+
+    <!-- ════════════════ MARQUEE ════════════════ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Skin Fades</span><span>•</span><span>Beard Sculpting</span><span>•</span>
+        <span>Hot-Towel Shaves</span><span>•</span><span>Kids' Cuts</span><span>•</span>
+        <span>Straight-Razor Lineups</span><span>•</span><span>Gray Blending</span><span>•</span>
+        <span>Skin Fades</span><span>•</span><span>Beard Sculpting</span><span>•</span>
+        <span>Hot-Towel Shaves</span><span>•</span><span>Kids' Cuts</span><span>•</span>
+        <span>Straight-Razor Lineups</span><span>•</span><span>Gray Blending</span><span>•</span>
+      </div>
+    </div>
+
+    <!-- ════════════════ SERVICES ════════════════ -->
+    <section class="section" id="services">
+      <div class="section__head reveal">
+        <p class="kicker">The menu</p>
+        <h2>Services &amp; pricing</h2>
+        <p class="section__sub">Straightforward prices, no surprises at the register. Add-ons can be combined.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card__row"><h3>Signature Haircut</h3><span class="price">$35</span></div>
+          <p>Consultation, scissor &amp; clipper cut, straight-razor lineup, hot-towel finish and a style.</p>
+          <span class="card__time">~45 min</span>
+        </article>
+        <article class="card reveal">
+          <div class="card__row"><h3>Skin / Bald Fade</h3><span class="price">$40</span></div>
+          <p>A blurry, seamless fade down to skin. The detail work that separates a good cut from a great one.</p>
+          <span class="card__time">~45 min</span>
+        </article>
+        <article class="card reveal">
+          <div class="card__row"><h3>Haircut + Beard</h3><span class="price">$50</span></div>
+          <p>Full cut paired with a sculpted beard line, balanced to your face. Our most-booked combo.</p>
+          <span class="card__time">~60 min</span>
+        </article>
+        <article class="card reveal">
+          <div class="card__row"><h3>Beard Trim &amp; Shape</h3><span class="price">$20</span></div>
+          <p>Razor-defined edges, blended length, conditioned and styled. Looks intentional, not accidental.</p>
+          <span class="card__time">~25 min</span>
+        </article>
+        <article class="card reveal">
+          <div class="card__row"><h3>Hot-Towel Shave</h3><span class="price">$35</span></div>
+          <p>The classic straight-razor experience. Hot towels, pre-shave oil, the closest shave you'll get.</p>
+          <span class="card__time">~35 min</span>
+        </article>
+        <article class="card reveal">
+          <div class="card__row"><h3>Kids' Cut (12 &amp; under)</h3><span class="price">$25</span></div>
+          <p>Patient, friendly, and fast. We make the first chair a good memory, not a battle.</p>
+          <span class="card__time">~30 min</span>
+        </article>
+      </div>
+
+      <p class="section__note reveal">Senior &amp; military discount · Ask about the monthly membership — unlimited cleanups for one flat rate.</p>
+    </section>
+
+    <!-- ════════════════ THE BARBER ════════════════ -->
+    <section class="section section--alt" id="barber">
+      <div class="barber">
+        <div class="barber__portrait reveal" aria-hidden="true">
+          <!-- Drop a real headshot at assets/barber.jpg and swap the <img> in (see README). -->
+          <div class="barber__placeholder">
+            <span class="pole pole--lg"><span class="pole__stripes"></span></span>
+            <p>Your photo here</p>
+          </div>
+        </div>
+        <div class="barber__bio reveal">
+          <p class="kicker">Behind the chair</p>
+          <h2>Meet your barber</h2>
+          <p>
+            Fifteen years, two coasts, and a few hundred thousand cuts later — the philosophy
+            hasn't changed: <strong>listen first, cut second.</strong> Every head is different,
+            and the goal is a style you can actually do yourself on a Monday morning.
+          </p>
+          <p>
+            Trained in classic barbering and obsessed with the modern fade, the work lands
+            somewhere between barbershop tradition and editorial precision. Come in with a
+            reference photo or come in with nothing — either way, you leave looking like the
+            best version of you.
+          </p>
+          <a href="@@BOOKING_URL@@" class="btn btn--gold">Book with me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════ GALLERY ════════════════ -->
+    <section class="section" id="gallery">
+      <div class="section__head reveal">
+        <p class="kicker">The work</p>
+        <h2>Recent cuts</h2>
+        <p class="section__sub">Replace these with real before/afters — it's the single biggest driver of new bookings.</p>
+      </div>
+      <div class="gallery">
+        <!-- Placeholder tiles. Drop photos in assets/ and swap each div for <img>. -->
+        <figure class="gallery__tile reveal" data-label="Mid skin fade"></figure>
+        <figure class="gallery__tile reveal" data-label="Textured crop"></figure>
+        <figure class="gallery__tile reveal" data-label="Beard sculpt"></figure>
+        <figure class="gallery__tile reveal" data-label="Classic taper"></figure>
+        <figure class="gallery__tile reveal" data-label="Pompadour"></figure>
+        <figure class="gallery__tile reveal" data-label="Razor lineup"></figure>
+      </div>
+    </section>
+
+    <!-- ════════════════ REVIEWS ════════════════ -->
+    <section class="section section--alt" id="reviews">
+      <div class="section__head reveal">
+        <p class="kicker">Word of mouth</p>
+        <h2>What Coral Springs says</h2>
+      </div>
+      <div class="reviews">
+        <blockquote class="review reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Best fade I've had in South Florida, hands down. Took his time, lined me up perfect. Found my barber."</p>
+          <cite>— Marcus D.</cite>
+        </blockquote>
+        <blockquote class="review reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Brought my son for his first real cut. So patient with him. We both walked out fresh. New regulars."</p>
+          <cite>— Anthony R.</cite>
+        </blockquote>
+        <blockquote class="review reveal">
+          <div class="stars">★★★★★</div>
+          <p>"The hot-towel shave is worth every penny. Clean shop, great conversation, zero rush. 10/10."</p>
+          <cite>— James P.</cite>
+        </blockquote>
+      </div>
+      <p class="section__note reveal">
+        <a href="https://search.google.com/local/writereview" class="link-gold">Leave a Google review →</a>
+        &nbsp;·&nbsp; every one helps the shop show up first when someone searches "barber near me."
+      </p>
+    </section>
+
+    <!-- ════════════════ VISIT / HOURS / MAP ════════════════ -->
+    <section class="section" id="visit">
+      <div class="section__head reveal">
+        <p class="kicker">Stop in</p>
+        <h2>Hours &amp; location</h2>
+      </div>
+      <div class="visit">
+        <div class="visit__info reveal">
+          <div class="visit__block">
+            <h3>Hours</h3>
+            <ul class="hours">
+              <li><span>Mon</span><span>Closed</span></li>
+              <li><span>Tue – Fri</span><span>9:00a – 7:00p</span></li>
+              <li><span>Saturday</span><span>9:00a – 6:00p</span></li>
+              <li><span>Sunday</span><span>10:00a – 3:00p</span></li>
+            </ul>
+          </div>
+          <div class="visit__block">
+            <h3>Find us</h3>
+            <p class="visit__addr">@@ADDRESS@@<br />Coral Springs, FL 33065</p>
+            <p>
+              <a href="tel:@@PHONE_HREF@@" class="link-gold">@@PHONE@@</a><br />
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Coral+Springs+Barber+Co" class="link-gold">Get directions →</a>
+            </p>
+          </div>
+          <a href="@@BOOKING_URL@@" class="btn btn--gold btn--lg">Book online</a>
+        </div>
+        <div class="visit__map reveal">
+          <iframe
+            title="Map to Coral Springs Barber Co."
+            src="https://www.google.com/maps?q=Coral%20Springs%2C%20FL&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════ BOOK CTA ════════════════ -->
+    <section class="cta-band" id="book">
+      <div class="cta-band__inner reveal">
+        <h2>Your chair is waiting.</h2>
+        <p>Book online in under a minute, or call and we'll find you a slot today.</p>
+        <div class="hero__actions">
+          <a href="@@BOOKING_URL@@" class="btn btn--gold btn--lg">Book now</a>
+          <a href="tel:@@PHONE_HREF@@" class="btn btn--ghost btn--lg">Call @@PHONE@@</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ════════════════ FOOTER ════════════════ -->
+  <footer class="footer">
+    <div class="footer__brand">
+      <span class="pole" aria-hidden="true"><span class="pole__stripes"></span></span>
+      <span>Coral Springs Barber Co.</span>
+    </div>
+    <p class="footer__tag">Men's barbershop · Coral Springs, FL · Fades, beards &amp; hot-towel shaves</p>
+    <nav class="footer__social" aria-label="Social">
+      <a href="https://www.instagram.com/">Instagram</a>
+      <a href="https://www.google.com/maps">Google</a>
+      <a href="https://www.tiktok.com/">TikTok</a>
+    </nav>
+    <p class="footer__fine">© <span id="year">2026</span> Coral Springs Barber Co. All rights reserved.</p>
+  </footer>
+
+  <!-- ════════════════ STICKY MOBILE BAR ════════════════ -->
+  <div class="mobilebar" aria-hidden="false">
+    <a href="tel:@@PHONE_HREF@@" class="mobilebar__call">Call</a>
+    <a href="@@BOOKING_URL@@" class="mobilebar__book">Book a chair</a>
+  </div>
+
+  <script src="assets/script.js" defer></script>
+</body>
+</html>
