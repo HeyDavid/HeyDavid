@@ -1,0 +1,20 @@
+name: Latest field notes
+# Pulls the newest posts from davidrussell.co/rss.xml into the profile README,
+# between the BLOG-POST-LIST markers. Only commits when the list actually changes.
+on:
+  schedule:
+    - cron: "17 13 * * *"   # daily ~13:17 UTC
+  workflow_dispatch:          # run it on demand from the Actions tab
+permissions:
+  contents: write
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pull latest field notes into README
+        uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://davidrussell.co/rss.xml"
+          max_post_count: 4
+          commit_message: "chore: refresh latest field notes"
