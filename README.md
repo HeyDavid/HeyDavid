@@ -55,6 +55,7 @@ My filter for what I take on: **does it compound? is it asymmetric and evergreen
 **Latest field notes** — fresh from [davidrussell.co](https://davidrussell.co/writing/):
 
 <!-- BLOG-POST-LIST:START -->
+- [Marketing in 2026 is splitting in half](https://davidrussell.co/writing/marketing-is-splitting-in-half/)
 <!-- BLOG-POST-LIST:END -->
 
 **After hours** — **[Pages that are Places](https://heydavid.github.io/pages-that-are-places/)**, a small museum of one long night, built by hand in the browser: draw a firework's flight path with your finger and share the whole show as a single link, or send a letter in a bottle that lives *inside* the URL. Zero frameworks, zero backend, every sound synthesized live. The working side of the bench is in **[the Workshop](https://heydavid.github.io/pages-that-are-places/workshop.html)**.
