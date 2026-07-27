@@ -55,6 +55,7 @@ My filter for what I take on: **does it compound? is it asymmetric and evergreen
 **Latest field notes** — fresh from [davidrussell.co](https://davidrussell.co/writing/):
 
 <!-- BLOG-POST-LIST:START -->
+- [The zombie problem](https://davidrussell.co/writing/the-zombie-problem/)
 - [Marketing in 2026 is splitting in half](https://davidrussell.co/writing/marketing-is-splitting-in-half/)
 <!-- BLOG-POST-LIST:END -->
 
