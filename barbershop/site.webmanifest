@@ -1,0 +1,12 @@
+{
+  "name": "Coral Springs Barber Co.",
+  "short_name": "CS Barber Co.",
+  "description": "Men's barbershop in Coral Springs, FL — fades, beards & hot-towel shaves.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0e0e10",
+  "theme_color": "#0e0e10",
+  "icons": [
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
